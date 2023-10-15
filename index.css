@@ -1,0 +1,88 @@
+/* Reset CSS */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0a0a0a;
+    font-family: Arial, sans-serif;
+    background-image: url('IMG_20231014_192424.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: auto;
+}
+
+header {
+    background-color: #0b0b0b;
+    color: #fefdfd;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+}
+
+@media screen and (min-width: 1000px) {
+    .column {
+        width: 50%;
+    }
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #db1f1f;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px;
+    color: #eceef1;
+}
+
+h2 {
+    color: #f20808;
+}
+
+.project {
+    margin-bottom: 20px;
+    color: #f9f9f9;
+}
+
+.project img {
+    max-width: 50%;
+    height: auto;
+}
+
+a {
+    color: #1d5cb3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
